@@ -13,7 +13,7 @@ pipeline{
 		}
 		stage('deploy'){
 			steps{
-				sh 'echo DEPLOY'
+				sh 'echo DEPLOY calling from ${JOB_NAME}'
 			}
 		}
 }
