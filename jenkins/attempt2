@@ -19,6 +19,14 @@ steps{
 sh 'echo run'
 }
 }
+
+stage(deploy){
+
+steps{
+sh 'echo deploy'
+
+}
+}
 }
 
 
