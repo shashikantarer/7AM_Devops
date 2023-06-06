@@ -1,0 +1,25 @@
+pipeline{
+
+agent any
+
+stages{
+
+stage('integrate'){
+
+steps{
+
+sh 'echo integrate'
+}
+}
+
+stage('run'){
+
+steps{
+
+sh 'echo run'
+}
+}
+}
+
+
+}
