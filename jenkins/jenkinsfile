@@ -9,7 +9,7 @@ pipeline{
 }
         stage('test'){
                steps{
-                   sh 'echo Test done'
+                   sh 'echo Test done by Vishnu'
 }
 }
 }
