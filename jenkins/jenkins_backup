@@ -1,0 +1,13 @@
+pipeline{
+    agent any
+
+    stages{
+        stage('jenkins_backup'){
+            steps{
+                sh 'echo Build is successful'
+                sh 'cp -r /var/lib/jenkins/ /tmp/backup'
+
+            }
+        }
+    }
+}
